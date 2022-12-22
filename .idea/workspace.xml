@@ -2,18 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7120817-5991-4459-8d7a-fe3e24850a03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/node-js/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-js/api/api.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-js/api/user/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-js/api/user/user.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-js/api/user/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-js/configs/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-js/database/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/WebstormProjects.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-js/fs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-js/fs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node-js/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/node-js" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IlN8hTWkBhiwUn6Oos0xVd5eKR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,16 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/UA/WebstormProjects/RocketCourse&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/UA/WebstormProjects/RocketCourse",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\UA\WebstormProjects\RocketCourse\node-js\api\user" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,7 +67,11 @@
       <option name="presentableId" value="Default" />
       <updated>1670752051840</updated>
       <workItem from="1670752053096" duration="43000" />
-      <workItem from="1670752292465" duration="718000" />
+      <workItem from="1670752292465" duration="2210000" />
+      <workItem from="1670764854503" duration="54000" />
+      <workItem from="1671385693750" duration="1291000" />
+      <workItem from="1671571381085" duration="1544000" />
+      <workItem from="1671653271910" duration="15566000" />
     </task>
     <servers />
   </component>
