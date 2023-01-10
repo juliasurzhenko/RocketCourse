@@ -5,17 +5,20 @@
       <change afterPath="$PROJECT_DIR$/node-js/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node-js/api/api.router.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node-js/api/user/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-js/api/user/user.middleware.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node-js/api/user/user.router.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node-js/api/user/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-js/configs/roles.enum.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node-js/configs/variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node-js/database/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-js/database/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-js/database/users.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/WebstormProjects.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-js/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node-js/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node-js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node-js/fs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-js/fs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node-js/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,17 +45,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/UA/WebstormProjects/RocketCourse",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/UA/Desktop/univer/family&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\UA\WebstormProjects\RocketCourse\node-js\api\user" />
@@ -71,12 +74,28 @@
       <workItem from="1670764854503" duration="54000" />
       <workItem from="1671385693750" duration="1291000" />
       <workItem from="1671571381085" duration="1544000" />
-      <workItem from="1671653271910" duration="15566000" />
+      <workItem from="1671653271910" duration="16395000" />
+      <workItem from="1671983582891" duration="945000" />
+      <workItem from="1672049121104" duration="10000" />
+      <workItem from="1672736186768" duration="6942000" />
+      <workItem from="1672748467017" duration="2853000" />
+      <workItem from="1672778884944" duration="8441000" />
+      <workItem from="1672830041190" duration="21000" />
+      <workItem from="1672864403530" duration="2517000" />
+      <workItem from="1672935285926" duration="624000" />
+      <workItem from="1673032564231" duration="16690000" />
+      <workItem from="1673256715725" duration="8000" />
+      <workItem from="1673296445371" duration="3412000" />
+      <workItem from="1673338384839" duration="123000" />
+      <workItem from="1673381645926" duration="1267000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

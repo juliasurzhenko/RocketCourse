@@ -1,9 +1,14 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
-const users = require("../../database/users");
+const dataBasePath = path.join('database', 'users.json');
 
-const dataBasePath = path.join('database', 'users.js')
+const users = require("../../database/users.json");
+const User = require("../../database/User");
+
 module.exports = {
+    createUser: (userObject) => {
+        return User.create(userObject)
+    },
 
     readData: async () => {
         const users = await fs.readFile(dataBasePath);
@@ -21,21 +26,14 @@ module.exports = {
         }
     },
 
-    findUserByID: async (user, id) => {
-        const users = user.find(usr => usr.id === +id);
+    findUserByID: async (id, users) => {
+        console.log(users)
+        console.log("----------")
+        console.log(id);
+        const user = users.find(usr => usr.id === +id);
         if (!user) {
             throw new Error('User not found');
         }
-        return users;
+        return user;
     },
-
-    // getSingleUser: (userId) => {
-    //     const user = users[userId-1];
-    //
-    //     if(!user){;
-    //         throw new Error('User not found')
-    //     }
-    //
-    //     return user;
-    // }
 }
